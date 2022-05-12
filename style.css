@@ -11,6 +11,7 @@
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: 0px;
+        border-radius: 15px;
     }
     #cabecalho {
         position: fixed;
@@ -37,7 +38,6 @@
         text-decoration: none;
         margin: 20px;
         font-weight:bold;
-
     }
 
     #minha_foto {
@@ -135,7 +135,7 @@
         width: 10%;
         position: absolute;
         top: 1100px;
-        left: 1220px;
+        left: 1250px;
         border-radius: 15px;
     }
 
