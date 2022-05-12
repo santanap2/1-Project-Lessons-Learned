@@ -10,7 +10,7 @@
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
     #cabecalho {
         position: fixed;
@@ -35,14 +35,14 @@
     #sec-sobre{
         width: 80%;
         height: 20%;
-        background-color: rgb(52, 23, 105);
+        background-color: rgb(127, 108, 163);
         color: white;
         padding-left: 50px;
         padding-bottom:30px;
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 68px;
+        margin-left: 33px;
         text-align: center;
     }
         
@@ -51,39 +51,76 @@
     }
 
     #licoes_aprendidas{
-        width: 80%;
-        background-color: rgb(52, 23, 105);
+        background-color: rgb(127, 108, 163);
         color: white;
         padding-left: 50px;
         padding-bottom:30px;
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 68px;
+        margin-left: 33px;
         text-align: justify;
+        display: inline-block;
+        width: 30%;
+
     }
 
     #licoes_a_aprender {
-        width: 80%;
-        background-color: rgb(52, 23, 105);
+        background-color: rgb(127, 108, 163);
         color: white;
         padding-left: 50px;
         padding-bottom:30px;
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 68px;
+        margin-left: 33px;
         text-align: justify;
+        display: inline-block;
+        width: 30%;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #artigo {
+        width: 80%;
+        height: 20%;
+        background-color: rgb(127, 108, 163);
+        color: white;
+        padding-left: 50px;
+        padding-bottom:30px;
+        padding-right: 50px;
+        padding-top: 30px;
+        line-height:25px;
+        margin-left: 33px;
+        text-align: justify;
+    }
+
+    #passagem {
+        background-color: rgb(127, 108, 163);
+        color: white;
+        padding-left: 50px;
+        padding-bottom:30px;
+        padding-right: 50px;
+        padding-top: 30px;
+        line-height:25px;
+        margin-left: 33px;
+        text-align: justify;
+        display: inline-block;
+        width: 15%;
+        position: absolute;
+        top: 1500px;
+        left: 1250px;
     }
 
     #rodape {
         background-color: rgb(52, 23, 105);
-        padding: 15px;
+        padding-top: 70px;
+        padding-bottom: 30px;
         left: 0px;
         right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0%;
         text-align: center;
         text-decoration: none;
         color: white;
