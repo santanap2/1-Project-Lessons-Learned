@@ -7,9 +7,9 @@
 
     main {
         background-color: rgb(231, 221, 240);
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-bottom: 0px;
         border-radius: 15px;
     }
@@ -28,7 +28,7 @@
     #nav-bar {
        background-color: rgb(127, 108, 163);
        padding: 15px;
-       margin-top: 11%;
+       margin-top: 8%;
        text-align: center;
        border-radius: 15px;
     }
@@ -59,7 +59,7 @@
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 33px;
+        margin-left: 6%;
         text-align: center;
         border-radius: 15px;
     }
@@ -76,10 +76,10 @@
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 33px;
+        margin-left: 6%;
         text-align: justify;
         display: inline-block;
-        width: 30%;
+        width: 40%;
         border-radius: 15px;
     }
 
@@ -91,12 +91,12 @@
         padding-right: 50px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 33px;
+        margin-left: 6%;
         text-align: justify;
         display: inline-block;
-        width: 15%;
+        width: 20%;
         position: absolute;
-        top: 900px;
+        top: 840px;
         left: 820px;
         border-radius: 15px;
     }
@@ -105,37 +105,55 @@
         text-align: center;
         font-weight: bold;
     }
-
-    #artigo {
-        width: 80%;
-        height: 20%;
-        background-color: rgb(127, 108, 163);
-        color: white;
-        padding-left: 50px;
-        padding-bottom:30px;
-        padding-right: 50px;
-        padding-top: 30px;
-        line-height:25px;
-        margin-left: 33px;
-        text-align: justify;
-        border-radius: 15px;
-    }
-
+    
     #passagem {
         background-color: rgb(127, 108, 163);
         color: white;
-        padding-left: 50px;
+        padding-top: 30px;
         padding-bottom:30px;
+        padding-left: 50px;
         padding-right: 50px;
+        line-height:25px;
+        margin-left: 6%;
+        text-align: center;
+        display: inline-block;
+        width: 20%;
+        position: absolute;
+        top: 1350px;
+        left: 815px;
+        border-radius: 15px;
+    }
+
+    .lado-esquerdo {
+        width: 40%;
+        height: 40%;
+        background-color: rgb(127, 108, 163);
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom:30px;
         padding-top: 30px;
         line-height:25px;
-        margin-left: 33px;
+        text-align: justify;
+        border-radius: 15px;
+        margin-left: 6%;
+    }
+    
+    .lado-direito {
+        background-color: rgb(127, 108, 163);
+        color: white;
+        padding-top: 30px;
+        padding-bottom:30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height:25px;
         text-align: justify;
         display: inline-block;
-        width: 10%;
+        width: 20%;
+        margin-left: 6%;
         position: absolute;
-        top: 1100px;
-        left: 1250px;
+        top: 1450px;
+        left: 815px;
         border-radius: 15px;
     }
 
@@ -146,7 +164,7 @@
         text-align: center;
         border-radius: 15px;
     }
-
+    
     #rodape {
         background-color: rgb(52, 23, 105);
         padding-top: 70px;
