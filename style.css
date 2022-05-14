@@ -3,6 +3,7 @@
         font-family: sans-serif;
         font-size: 18px;
         margin: 0px;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     main {
@@ -95,7 +96,7 @@
         display: inline-block;
         width: 20%;
         position: absolute;
-        top: 840px;
+        top: 920px;
         left: 820px;
         border-radius: 15px;
     }
@@ -103,6 +104,7 @@
     h2 {
         text-align: center;
         font-weight: bold;
+        font-size: 32px;
     }
     
     .lado-esquerdo {
@@ -123,7 +125,7 @@
     .lado-direito {
         background-color: rgb(127, 108, 163);
         color: white;
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom:30px;
         padding-left: 50px;
         padding-right: 50px;
@@ -133,7 +135,7 @@
         width: 20%;
         margin-left: 6%;
         position: absolute;
-        top: 1450px;
+        top: 1515px;
         left: 825px;
         border-radius: 15px;
     }
@@ -150,12 +152,46 @@
         text-align: center;
         display: inline-block;
         width: 20%;
+        height: 150px;
         position: absolute;
-        top: 1350px;
+        top: 1380px;
         left: 825px;
         border-radius: 15px;
     }
-    
+
+    table, td, th {
+        border: solid 5px rgb(52, 23, 105);
+        border-collapse: collapse;
+        padding: 20px;
+        background-color: rgb(231, 221, 240);
+        color: rgb(52, 23, 105);
+        border: solid 5px rgb(52, 23, 105);
+        line-height:25px;
+    }
+
+    #title-table {
+        color: rgb(52, 23, 105);
+    }
+
+    .font-table {
+        font-size: 24px;
+    }
+
+    .block-left {
+        font-weight: bold;
+        color: white;
+        background-color: rgb(127, 108, 163);
+        text-align: center;
+        padding: auto;
+    }
+
+    #tabela {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
     #retorno {
         background-color: rgb(127, 108, 163);
         padding: 15px;
