@@ -122,13 +122,16 @@
         padding-bottom:30px;
         line-height:25px;
         text-align: justify;
-        width: 40%;
-        height: 20%;
-        margin-left: 8%;
+        width: 30%;
+        height: 40%;
+        position: absolute;
+        left: 340px;
+        top: 1300px;
+        /* margin-left: 8%;
         margin-top: 2%;
         margin-right: 2%;
         margin-bottom: 2%;
-        display: inline-block;
+        display: inline-block; */
     }
 
     .lado-direito {
@@ -141,13 +144,16 @@
         padding-bottom:30px;
         line-height:25px;
         text-align: justify;
-        width: 20%;
-        height: 20%;
-        margin-left: 2%;
+        width: 15%;
+        height: 50%;
+        position: absolute;
+        left: 980px;
+        top: 1300px;
+        /* margin-left: 2%;
         margin-top: 2%;
         margin-right: 8%;
         margin-bottom: 2%;
-        display: inline-block;
+        display: inline-block; */
     }
 
     #tabela {
